@@ -1,0 +1,2 @@
+Задаём имя устройству:
+hostnamectl set-hostname ISP;exec bash
