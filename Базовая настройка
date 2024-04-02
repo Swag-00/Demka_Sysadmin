@@ -1,2 +1,9 @@
+ISP
 Задаём имя устройству:
 hostnamectl set-hostname ISP;exec bash
+vim /etc/net/ifaces/default/ens33/options/ 
+(меняем строчку config_ipv6=yes)
+данная команда заменяет 3 отдельных команды по созданию директории
+mkdir /etc/net/ifaces/ens35
+mkdir /etc/net/ifaces/ens36
+mkdir /etc/net/ifaces/ens37
